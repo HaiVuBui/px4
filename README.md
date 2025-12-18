@@ -55,3 +55,10 @@ source install/setup.bash
 ros2 launch px4_takeoff takeoff.launch.py # take off
 ros2 launch px4_takeoff mission.launch.py takeoff_height:=5.0 goal_x:=5.0 goal_y:=0.0 goal_z:=-5.0 goal_yaw:=0.0 # go to destinated point
 ```
+
+# kitty
+```bash
+mkdir -p ~/.config/
+cp -r kitty ~/.config/
+```
+
